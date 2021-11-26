@@ -1,4 +1,4 @@
-import theme from "../src/index";
+import theme from "../src/theme";
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
