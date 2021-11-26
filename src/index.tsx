@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from './theme';
+import SharedHeader from './stories/shared-header';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChakraProvider theme={theme}>
+      <SharedHeader/>
+    </ChakraProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
