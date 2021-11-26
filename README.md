@@ -11,8 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## What should happen?
 
 The component should change their color depending on the color mode:
+![dark mode](https://raw.githubusercontent.com/ngxCoder/storybook-chakra-test/main/media/darkmode.png)
 
 ## What is happening?
 
 The component doesn't react properly:
-
+![issue](https://raw.githubusercontent.com/ngxCoder/storybook-chakra-test/main/media/issue.gif)
