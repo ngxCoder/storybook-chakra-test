@@ -8,6 +8,11 @@ export const parameters = {
     },
   },
   chakra: {
-    theme
+    theme,
+    colorModeSwitch: {
+      position: 'top-left',
+      zIndex: 9999,
+      margin: '1rem'
+    }
   }
 }
